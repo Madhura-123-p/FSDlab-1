@@ -1,0 +1,8 @@
+header{background:darkslategray;color:white;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;padding:14px 5%;border-bottom:5px solid;border-image:linear-gradient(90deg,red,green,gold,dodgerblue) 1}
+.logo{font-size:1.5rem;font-weight:700}
+nav a{color:white;text-decoration:none;margin-left:18px;padding:6px 12px;border-radius:20px;transition:.2s}
+nav a:hover,nav a.active{background:gold;color:black}
+
+@media(max-width:600px){
+  nav a{margin:4px 4px 0 0}
+}
